@@ -2,3 +2,53 @@ body {
   text-align: center;
   font-family: Helvetica;
 }
+
+
+/******** Header *********/
+
+
+#header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png")
+}
+
+#header h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li a{
+  font-size: 18px;
+  color: white;
+}
+
+/**********  Upper Content *******/
+
+
+/**********  Lower Content *******/
+
+
+/************ Footer ************/
+
+#footer {
+  text-align: left;
+  background-color: dimgray;
+}
+
+#footer p {
+  font-size: 11px;
+  color: white;
+}
+
+#footer p, #footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+#footer p, #footer nav,#footer ul, #footer ul li, #footer a{
+  display: inline;
+}
